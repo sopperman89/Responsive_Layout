@@ -50,24 +50,23 @@ button {
 
 .col {
   width: 100%;
-  background-color: #38cfd9;
 }
 
-.col + .col {
-  margin-left: 50px;
-}
-
-.three-col {
+.three-row {
   text-align: center;
   padding: 3em 0;
+  background-color: #3a0358;
+  color: #fff;
 }
 
 .three-col h2 {
   color: purple;
 }
 
-.two-col {
-  text-align: center;
-  background: #3a0358;
+.content {
   padding: 3em 0;
+}
+
+.main-content {
+  display: flex;
 }
