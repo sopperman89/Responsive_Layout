@@ -48,25 +48,21 @@ button {
   justify-content: space-between;
 }
 
-.col {
-  width: 100%;
-}
-
-.three-row {
+.sidebar {
   text-align: center;
-  padding: 3em 0;
+  padding: 2em 3em;
+  margin: 3em;
+  max-width: 450px;
   background-color: #3a0358;
   color: #fff;
 }
 
-.three-col h2 {
-  color: purple;
-}
-
-.content {
-  padding: 3em 0;
-}
-
 .main-content {
+  display: flex;
+  padding: 3em 0;
+  width: 100%;
+}
+
+.main {
   display: flex;
 }
