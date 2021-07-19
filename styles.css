@@ -66,3 +66,37 @@ button {
 .main {
   display: flex;
 }
+
+header {
+  background: #b38ac9;
+}
+
+.nav_list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 0.6em;
+  font-weight: bold;
+}
+
+.nav_link {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.nav_item {
+  padding: 0.7em;
+}
+
+.nav_link-button {
+  background: #fff;
+  color: #136c72;
+  padding: 0.25em 1em;
+  border-radius: 10em;
+}
+
+.nav_link:hover {
+  opacity: 0.75;
+}
