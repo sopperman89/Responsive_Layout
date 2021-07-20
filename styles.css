@@ -68,7 +68,14 @@ button {
 }
 
 header {
-  background: #b38ac9;
+  background: #a462c7;
+  padding: 1em 0;
+}
+
+.nav_bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav_list {
@@ -76,8 +83,7 @@ header {
   margin: 0;
   padding: 0;
   list-style: none;
-  font-size: 0.6em;
-  font-weight: bold;
+  font-size: 0.9em;
 }
 
 .nav_link {
@@ -86,17 +92,30 @@ header {
   text-transform: uppercase;
 }
 
-.nav_item {
-  padding: 0.7em;
+.nav_item + .nav_item {
+  margin-left: 1em;
 }
 
 .nav_link-button {
   background: #fff;
-  color: #136c72;
+  color: #000;
   padding: 0.25em 1em;
   border-radius: 10em;
 }
 
 .nav_link:hover {
   opacity: 0.75;
+}
+
+@media (max-width: 600px) {
+  .row,
+  .main {
+    display: block;
+  }
+
+  .hero__text,
+  .hero__img,
+  .main {
+    width: 100%;
+  }
 }
